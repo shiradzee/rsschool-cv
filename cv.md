@@ -33,10 +33,6 @@ I'm starting his way in web development.At the moment I am taking a course in th
 <br>
 ![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 <br>
-## Code Examples
- 	<script>
-    	alert( 'Привет, мир!' );
-  	</script>
 ## Language
 * English - A2
 * Russia - Native
