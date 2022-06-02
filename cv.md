@@ -32,7 +32,7 @@ I'm starting his way in web development.At the moment I am taking a course in th
 ![js](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 <br>
 ![GIT](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
-<br>
+
 ## Language
 * English - A2
 * Russia - Native
