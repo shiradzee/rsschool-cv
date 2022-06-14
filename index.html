@@ -1,24 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="style.css" rel="stylesheet" />
-    <title>Document</title>
+    <link href="/rsschool-cv/css/style.css" rel="stylesheet" />
+    <title>CV</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Courgette&display=swap");
+    </style>
   </head>
   <body>
-    <ul class="menu-main">
-      <li><a href="" class="current">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Skills</a></li>
-      <li><a href="">Educatuion</a></li>
-      <li><a href="">Code</a></li>
-      <li><a href="">Educatuion</a></li>
-      <li><a href="">Language</a></li>
-    </ul>
+    <div class="container">
+      <ul class="menu-main">
+        <li><a href="" class="current">Home</a></li>
+        <li><a href="#menu1">About</a></li>
+        <li><a href="#menu2">Skills</a></li>
+        <li><a href="#menu3">Educatuion</a></li>
+        <li><a href="#menu4">Code</a></li>
+        <li><a href="#menu5">Language</a></li>
+      </ul>
+      <h1>Yura Yartsev</h1>
+      <img
+        class="ava"
+        src="/rsschool-cv/img/ava.jpg"
+        alt="photo"
+        width="150px"
+      />
+      <hr class="polosa" />
+      <div class="about">
+        <h2 id="menu1">About me</h2>
+        <p class="paraghraph">
+          Hi, I'm a novice frontend developer, I don't have relevant experience
+          in development, but I hope on the course. The Rolling Scopes online
+          school, I will gain experience in this subject and become an active
+          developer.
+        </p>
+        <h2>My contacts</h2>
+        <ul class="contacts">
+          <li><a href="https://t.me/BlueberryNinja">Telegram</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Discord</a></li>
+        </ul>
+        <h2 id="menu2">My skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>GIT</li>
+          <li>JS</li>
+        </ul>
+        <h2 id="menu3">Educatuion</h2>
+        <ul class="education">
+          <li>
+            <a href="https://www.sololearn.com/profile/21753859" target="_blank"
+              >Sololearn</a
+            >
+          </li>
+          <li>
+            <a href="https://stepik.org/course/38218/promo#toc" target="_blank"
+              >stepik</a
+            >
+          </li>
+        </ul>
+        <h2 id="menu4">Code</h2>
+        <pre>
+          <code>
+            var myHeading = document.querySelector('h1');
+            myHeading.textContent = 'Hello world!';
+          </code>
+        </pre>
+        <h2 id="menu5">Language</h2>
+        <p>Russian - Native</p>
+        <p>English - A2</p>
+        <div class="footer">
+          <div class="container-footer">
+            <div class="footer-row">
+              <div class="footer-copy">
+                <div class="footer-copy-name">© 2022 @shiradzee</div>
+                <div class="footer-logo">
+                  <img
+                    src="/rsschool-cv/img/logo/rs_school_js.svg"
+                    width="80px"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
-
