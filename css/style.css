@@ -210,11 +210,9 @@ p {
 .footer-row {
   text-align: left;
   padding: 30px;
-  margin: 0;
+
   background-color: #645e5a;
 }
 .footer-logo {
   text-align: end;
-}
-.git-logo {
 }
