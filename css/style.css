@@ -206,13 +206,18 @@ li {
 p {
   text-align: justify;
   font-size: 15px;
+  padding: 5px;
 }
-.footer-row {
-  text-align: left;
+.footer {
+  display: flex;
   padding: 30px;
-
-  background-color: #645e5a;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
 .footer-logo {
-  text-align: end;
+  margin-left: 600px;
+}
+.container-footer {
+  display: flex;
+  justify-content: space-between;
 }
